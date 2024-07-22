@@ -1,0 +1,21 @@
+# SSCI MDBT53 Dev Board configuration
+
+# Copyright (c) 2021 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+if SOC_NRF5340_CPUAPP_QKAA
+
+config BOARD_THINGY53_NRF5340_CPUAPP
+	bool "SSCI MDBT53 Dev Board Application MCU"
+
+config BOARD_THINGY53_NRF5340_CPUAPP_NS
+	bool "SSCI MDBT53 Dev Board Application MCU non-secure"
+
+endif # SOC_NRF5340_CPUAPP_QKAA
+
+if SOC_NRF5340_CPUNET_QKAA
+
+config BOARD_THINGY53_NRF5340_CPUNET
+	bool "SSCI MDBT53 Dev Board Network MCU"
+
+endif # SOC_NRF5340_CPUNET_QKAA
