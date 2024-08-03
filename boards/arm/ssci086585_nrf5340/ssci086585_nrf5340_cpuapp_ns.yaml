@@ -1,5 +1,5 @@
-identifier: raytac_mdbt53_db_40_nrf5340_cpuapp_ns
-name: RAYTAC-MDBT53-DB-40-NRF52840-application-MCU-Non-Secure
+identifier: ssci086585_nrf5340_cpuapp_ns
+name: SSCI-086585-NRF5340-application-MCU-Non-Secure
 type: mcu
 arch: arm
 toolchain:

@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-#include "raytac_mdbt53_db_40_nrf5340_cpuapp_common-pinctrl.dtsi"
+#include "ssci086585_nrf5340_cpuapp_common-pinctrl.dtsi"
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
 / {
@@ -237,4 +237,4 @@ zephyr_udc0: &usbd {
 };
 
 /* Include partition configuration file */
-#include "raytac_mdbt53_db_40_nrf5340_cpuapp_partition_conf.dts"
+#include "ssci086585_nrf5340_cpuapp_partition_conf.dts"

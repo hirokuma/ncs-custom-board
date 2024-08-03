@@ -11,7 +11,7 @@
 
 #include <soc.h>
 
-LOG_MODULE_REGISTER(raytac_mdbt53_db_40_nrf5340_cpuapp, CONFIG_LOG_DEFAULT_LEVEL);
+LOG_MODULE_REGISTER(ssci086585_nrf5340_cpuapp, CONFIG_LOG_DEFAULT_LEVEL);
 
 #if defined(CONFIG_BT_CTLR_DEBUG_PINS_CPUAPP)
 #include <../subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/debug.h>
