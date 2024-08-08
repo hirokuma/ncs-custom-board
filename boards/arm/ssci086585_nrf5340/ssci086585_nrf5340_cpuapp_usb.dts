@@ -10,7 +10,7 @@
 #include "ssci086585_nrf5340_cpuapp_common_usb.dtsi"
 
 / {
-	model = "SwitchScience SSCI-086585 NRF5340 Application";
+	model = "SwitchScience SSCI-086585 NRF5340(USB) Application";
 	compatible = "switchscience,ssci086585-nrf5340-cpuapp";
 
 	chosen {
