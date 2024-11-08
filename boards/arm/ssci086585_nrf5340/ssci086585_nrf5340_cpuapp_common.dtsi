@@ -95,38 +95,38 @@
 	pinctrl-names = "default", "sleep";
 };
 
-&qspi {
-	pinctrl-0 = <&qspi_default>;
-	pinctrl-1 = <&qspi_sleep>;
-	pinctrl-names = "default", "sleep";
-};
+// &qspi {
+// 	pinctrl-0 = <&qspi_default>;
+// 	pinctrl-1 = <&qspi_sleep>;
+// 	pinctrl-names = "default", "sleep";
+// };
 
-&spi2 {
-	compatible = "nordic,nrf-spim";
-	cs-gpios = <&gpio0 25 GPIO_ACTIVE_LOW>;
+// &spi2 {
+// 	compatible = "nordic,nrf-spim";
+// 	cs-gpios = <&gpio0 25 GPIO_ACTIVE_LOW>;
 
-	pinctrl-0 = <&spi2_default>;
-	pinctrl-1 = <&spi2_sleep>;
-	pinctrl-names = "default", "sleep";
-};
+// 	pinctrl-0 = <&spi2_default>;
+// 	pinctrl-1 = <&spi2_sleep>;
+// 	pinctrl-names = "default", "sleep";
+// };
 
-&spi3 {
-	compatible = "nordic,nrf-spim";
-	cs-gpios = <&gpio1 12 GPIO_ACTIVE_LOW>;
+// &spi3 {
+// 	compatible = "nordic,nrf-spim";
+// 	cs-gpios = <&gpio1 12 GPIO_ACTIVE_LOW>;
 
-	pinctrl-0 = <&spi3_default>;
-	pinctrl-1 = <&spi3_sleep>;
-	pinctrl-names = "default", "sleep";
-};
+// 	pinctrl-0 = <&spi3_default>;
+// 	pinctrl-1 = <&spi3_sleep>;
+// 	pinctrl-names = "default", "sleep";
+// };
 
-&spi4 {
-	compatible = "nordic,nrf-spim";
-	cs-gpios = <&gpio0 11 GPIO_ACTIVE_LOW>;
+// &spi4 {
+// 	compatible = "nordic,nrf-spim";
+// 	cs-gpios = <&gpio0 11 GPIO_ACTIVE_LOW>;
 
-	pinctrl-0 = <&spi4_default>;
-	pinctrl-1 = <&spi4_sleep>;
-	pinctrl-names = "default", "sleep";
-};
+// 	pinctrl-0 = <&spi4_default>;
+// 	pinctrl-1 = <&spi4_sleep>;
+// 	pinctrl-names = "default", "sleep";
+// };
 
 &flash0 {
 
