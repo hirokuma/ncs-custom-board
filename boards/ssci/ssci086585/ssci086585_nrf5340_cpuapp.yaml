@@ -1,21 +1,22 @@
-identifier: ssci086585_nrf5340_cpuapp_ns
-name: SSCI-086585-NRF5340-application-MCU-Non-Secure
+identifier: ssci-ssci086585/nrf5340/cpuapp
+name: SSCI-086585-NRF5340-application-MCU
 type: mcu
 arch: arm
 toolchain:
   - gnuarmemb
   - xtools
   - zephyr
-ram: 192
-flash: 192
+ram: 448
+flash: 1024
 supported:
-  - counter
+  - gpio
   - i2c
+  - i2s
   - pwm
-  - watchdog
+  - qspi
   - spi
   - uart
+  - watchdog
   - usb_cdc
   - usb_device
   - netif:openthread
-  - gpio
