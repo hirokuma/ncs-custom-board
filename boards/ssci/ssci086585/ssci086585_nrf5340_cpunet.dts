@@ -10,8 +10,8 @@
 #include "ssci086585_nrf5340_cpunet_common.dts"
 
 / {
-	model = "SwitchScience SSCI-086585 NRF5340 Network";
-	compatible = "switchscience,ssci086585-nrf5340-cpunet";
+	model = "SSCI SSCI-086585 NRF5340 Network";
+	compatible = "ssci,ssci086585-nrf5340-cpunet";
 
 	chosen {
 		zephyr,console = &uart0;

@@ -1,5 +1,5 @@
 identifier: ssci086585/nrf5340/cpuapp
-name: SSCI-086585(Raytac MDBT53) application
+name: SSCI-086585(Raytac MDBT53) application USB-CDC
 vendor: ssci
 type: mcu
 arch: arm

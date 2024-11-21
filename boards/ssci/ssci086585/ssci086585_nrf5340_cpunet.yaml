@@ -2,19 +2,20 @@
 
 # Copyright (c) 2023 Raytac Corporation
 # SPDX-License-Identifier: Apache-2.0
-identifier: ssci-ssci086585/nrf5340/cpunet
+identifier: ssci086585/nrf5340/cpunet
 name: SSCI-086585-NRF5340-network-MCU
+vendor: ssci
 type: mcu
 arch: arm
+ram: 64
+flash: 256
 toolchain:
   - gnuarmemb
   - xtools
   - zephyr
-ram: 64
-flash: 256
 supported:
-  - watchdog
   - gpio
+  - watchdog
   - i2c
   - spi
   - uart

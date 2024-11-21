@@ -9,8 +9,8 @@
 #include "ssci086585_nrf5340_cpuapp_common.dtsi"
 
 / {
-	model = "SwitchScience SSCI-086585 NRF5340 Application";
-	compatible = "switchscience,ssci086585-nrf5340-cpuapp";
+	model = "SSCI SSCI-086585 NRF5340 Application";
+	compatible = "ssci,ssci086585-nrf5340-cpuapp";
 
 	chosen {
 		zephyr,sram = &sram0_image;

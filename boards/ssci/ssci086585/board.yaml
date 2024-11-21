@@ -1,8 +1,0 @@
-board:
-  name: ssci_ssci086585
-  vendor: ssci
-  socs:
-  - name: 'nrf5340'
-    variants:
-    - name: 'ns'
-      cpucluster: 'cpuapp'
