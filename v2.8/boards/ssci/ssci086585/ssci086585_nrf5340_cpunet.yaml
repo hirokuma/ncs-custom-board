@@ -3,7 +3,7 @@
 # Copyright (c) 2023 Raytac Corporation
 # SPDX-License-Identifier: Apache-2.0
 identifier: ssci086585/nrf5340/cpunet
-name: SSCI-086585-NRF5340-network-MCU
+name: SSCI-086585-NRF5340-network-MCU(v2.8)
 vendor: ssci
 type: mcu
 arch: arm

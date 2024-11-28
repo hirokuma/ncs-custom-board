@@ -1,5 +1,5 @@
-identifier: ssci086585/nrf5340/cpuapp
-name: SSCI-086585(Raytac MDBT53) application
+identifier: ssci086585/nrf5340/cpuapp/ns
+name: SSCI-086585(Raytac MDBT53) application(Non-Secure)(v2.8)
 vendor: ssci
 type: mcu
 arch: arm
@@ -7,16 +7,15 @@ toolchain:
   - gnuarmemb
   - xtools
   - zephyr
-ram: 448
-flash: 1024
+ram: 192
+flash: 192
 supported:
-  - gpio
+  - counter
   - i2c
-  - i2s
   - pwm
-  - qspi
+  - watchdog
   - spi
   - uart
-  - watchdog
   - usb_device
   - netif:openthread
+  - gpio
