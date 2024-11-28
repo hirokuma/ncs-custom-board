@@ -6,7 +6,3 @@ board:
     variants:
     - name: 'ns'
       cpucluster: 'cpuapp'
-    - name: 'usb'
-      cpucluster: 'cpuapp'
-    - name: 'usb_ns'
-      cpucluster: 'cpuapp'

@@ -3,16 +3,19 @@ name: SSCI-086585(Raytac MDBT53) application
 vendor: ssci
 type: mcu
 arch: arm
-ram: 448
-flash: 1024
 toolchain:
   - gnuarmemb
   - xtools
   - zephyr
+ram: 448
+flash: 1024
 supported:
   - gpio
   - i2c
+  - i2s
   - pwm
+  - qspi
+  - spi
   - uart
   - watchdog
   - usb_cdc

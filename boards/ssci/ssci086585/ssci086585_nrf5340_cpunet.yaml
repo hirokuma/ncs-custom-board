@@ -7,15 +7,15 @@ name: SSCI-086585-NRF5340-network-MCU
 vendor: ssci
 type: mcu
 arch: arm
-ram: 64
-flash: 256
 toolchain:
   - gnuarmemb
   - xtools
   - zephyr
+ram: 64
+flash: 256
 supported:
-  - gpio
   - watchdog
+  - gpio
   - i2c
   - spi
   - uart
