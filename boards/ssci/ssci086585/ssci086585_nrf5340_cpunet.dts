@@ -7,7 +7,7 @@
 /dts-v1/;
 #include <nordic/nrf5340_cpunet_qkaa.dtsi>
 #include "ssci086585_nrf5340_cpunet-pinctrl.dtsi"
-#include "ssci086585_nrf5340_cpunet_common.dts"
+#include "ssci086585_nrf5340_cpunet_common.dtsi"
 
 / {
 	model = "SSCI SSCI-086585 NRF5340 Network";
