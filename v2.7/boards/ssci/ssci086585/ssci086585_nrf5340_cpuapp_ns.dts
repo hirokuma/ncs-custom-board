@@ -1,0 +1,20 @@
+/*
+ * Copyright (c) 2023 Raytac Corporation
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+/dts-v1/;
+#include <nordic/nrf5340_cpuappns_qkaa.dtsi>
+#include "ssci086585_nrf5340_cpuapp_common.dtsi"
+
+/ {
+	model = "SSCI SSCI-086585 NRF5340(NS) Application";
+	compatible = "ssci,ssci086585-nrf5340-cpuapp-ns";
+
+	chosen {
+		zephyr,sram = &sram0_ns;
+		zephyr,flash = &flash0;
+		zephyr,code-partition = &slot0_ns_partition;
+	};
+};
