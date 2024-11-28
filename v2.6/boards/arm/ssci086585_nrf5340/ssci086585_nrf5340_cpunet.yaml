@@ -1,0 +1,21 @@
+# SwitchScience SSCI086585_NRF5340 board configuration
+
+# Copyright (c) 2023 Raytac Corporation
+# SPDX-License-Identifier: Apache-2.0
+identifier: ssci086585_nrf5340_cpunet
+name: SSCI-086585-NRF5340-network-MCU(v2.6)
+type: mcu
+arch: arm
+toolchain:
+  - gnuarmemb
+  - xtools
+  - zephyr
+ram: 64
+flash: 256
+supported:
+  - watchdog
+  - gpio
+  - i2c
+  - spi
+  - uart
+  - counter
