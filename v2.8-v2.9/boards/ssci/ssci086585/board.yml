@@ -1,5 +1,6 @@
 board:
   name: ssci086585
+  full_name: SSCI-086585
   vendor: ssci
   socs:
   - name: 'nrf5340'
